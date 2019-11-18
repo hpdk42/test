@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $JOB_NAME
 echo  run >> log
 if [[ $(cat log | wc -l) -lt 3 ]]
 then
